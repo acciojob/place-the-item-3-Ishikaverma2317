@@ -1,21 +1,38 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <title>Flexbox Layout</title>
+  <style>
+    .holder {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
 
+    .item {
+      background-color: lightblue;
+      padding: 20px;
+      margin: 10px;
+      font-family: sans-serif;
+      font-size: 18px;
+      border: 1px solid #333;
+      width: 100px;
+      text-align: center;
+    }
+  </style>
+</head>
 <body>
-<div class="holder">
-    <div class="item">Item 1</div>
-    <div class="item">Item 2</div>
-    <div class="item">Item 3</div>
-</div>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="holder">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <!-- Add more items below to see them wrap -->
+    <!-- <div class="item">5</div>
+    <div class="item">6</div> -->
+  </div>
 
 </body>
-
 </html>
